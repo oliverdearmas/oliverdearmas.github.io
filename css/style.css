@@ -12,8 +12,8 @@
 :root {
   --color-bg: #ffffff;        /* page background */
   --color-text: #222222;      /* main text color */
-  --color-primary: #2b6cb0;   /* header, links, buttons */
-  --color-primary-dark: #1a4971; /* hover state for links/buttons */
+  --color-primary: #0021A5;   /* header, links, buttons */
+  --color-primary-dark: #FA4616; /* hover state for links/buttons */
   --color-accent: #f6ad55;    /* small highlights, e.g. active nav link */
   --color-border: #e2e8f0;    /* light lines / card borders */
 }
