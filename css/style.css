@@ -62,12 +62,7 @@ a:hover {
 section {
   padding: 40px 0;
 }
-.flex-container {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
-  height: 100vh;           /* Gives the container a height (e.g., full screen view height) */
-}
+
 
 
 /* ---- 4. HEADER + NAV MENU ---------------------------------- */
@@ -223,6 +218,42 @@ section {
   margin-top: 10px;
   font-size: 0.85rem;
   color: var(--color-primary-dark);
+}
+
+.card-link {
+  display: block;
+  color: var(--color-text);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card-link:hover {
+  color: var(--color-text);
+  border-color: var(--color-primary);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.card-action {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.project-detail h1 {
+  margin-bottom: 12px;
+}
+
+.project-detail .tags {
+  margin: 20px 0;
+  color: var(--color-primary-dark);
+  font-weight: bold;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 24px;
+  font-weight: bold;
 }
 
 /* ---- 8. SIMPLE FORM (Contact page) --------------------------- */
