@@ -62,6 +62,13 @@ a:hover {
 section {
   padding: 40px 0;
 }
+.flex-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100vh;           /* Gives the container a height (e.g., full screen view height) */
+}
+
 
 /* ---- 4. HEADER + NAV MENU ---------------------------------- */
 .site-header {
