@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Notebook — Oliver de Armas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-title">Oliver de Armas</a>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="finalproject.html" class="active">Final Project</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <p class="crumbs"><a href="finalproject.html">Final Project</a> / Engineering Notebook</p>
+        <h1>Engineering Notebook</h1>
+        <p class="notebook-intro">A dated record of project thinking, decisions, and progress.</p>
+
+        <div class="notebook-layout">
+          <section class="notebook-main" aria-labelledby="notes-heading">
+            <h2 id="notes-heading">Project notes</h2>
+            <article class="notebook-entry">
+              <time datetime="2026-10-23">October 23, 2026</time>
+              <h3>Exploring final project directions</h3>
+              <p>I am comparing three possible builds: a sensor-equipped rocket airframe, regenerative braking for an electric plane, and a thrust-vector-controlled model rocket. Each option combines design and avionics in a different way. The final project direction has not been selected yet.</p>
+              <ul>
+                <li><strong>Sensor rocket:</strong> explore measuring structural forces during flight.</li>
+                <li><strong>Regenerative braking:</strong> investigate recovering energy through the aircraft motor.</li>
+                <li><strong>Thrust vector control:</strong> explore steering a model rocket with a gimbaled motor mount.</li>
+              </ul>
+            </article>
+            <p class="notebook-edit-note">To record progress, add a dated entry here in the HTML.</p>
+          </section>
+
+          <aside class="notebook-sidebar" aria-labelledby="milestones-heading">
+            <div class="notebook-panel">
+              <h2 id="milestones-heading">Key milestones</h2>
+              <ol class="milestone-list">
+                <li><span class="pill wip">In progress</span><span>Compare project concepts and choose a direction</span></li>
+                <li><span class="pill todo">Next</span><span>Define goals and success criteria</span></li>
+                <li><span class="pill todo">Planned</span><span>Develop the initial design</span></li>
+                <li><span class="pill todo">Planned</span><span>Build, test, and document the project</span></li>
+              </ol>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Oliver de Armas. Built with HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
