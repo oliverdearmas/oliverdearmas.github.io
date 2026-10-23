@@ -99,6 +99,22 @@ th{background:var(--paper)}
 details{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:14px 20px;margin-top:14px}
 summary{cursor:pointer;font-weight:700}
 
+/* Engineering notebook */
+.notebook-intro{max-width:680px;margin-top:8px}
+.notebook-layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(250px,1fr);gap:22px;margin-top:24px;align-items:start}
+.notebook-main>h2,.notebook-panel h2{font-size:1.3rem;margin-bottom:14px;padding-bottom:8px;border-bottom:2px solid var(--line)}
+.notebook-panel,.notebook-entry{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:20px}
+.notebook-entry{margin-bottom:16px}
+.notebook-entry time{display:block;color:var(--blue);font-size:.9rem;font-weight:700;margin-bottom:8px}
+.notebook-entry h3{font-size:1.1rem;margin-bottom:8px}
+.notebook-entry p{margin-bottom:10px}
+.notebook-entry ul{padding-left:22px}
+.notebook-edit-note{font-size:.9rem;color:var(--muted);font-style:italic}
+.milestone-list{list-style:none}
+.milestone-list li{display:grid;gap:8px;padding:14px 0;border-top:1px solid var(--line)}
+.milestone-list .pill{justify-self:start}
+@media(max-width:700px){.notebook-layout{grid-template-columns:1fr}}
+
 /* Contact */
 .contact-list{list-style:none;margin-top:16px}
 .contact-list li{padding:10px 0;border-bottom:1px solid var(--line)}
@@ -135,5 +151,3 @@ summary{cursor:pointer;font-weight:700}
 .skill-list{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0 !important}
 .skill-list li{background:var(--paper);border:1px solid var(--line);border-radius:99px;padding:2px 12px;font-size:.9rem;margin:0}
 @media print{.site-header,.site-footer,.contact-cards,.resume-head .button,.step-head{display:none}.resume{border:none;padding:0}}
-
-
